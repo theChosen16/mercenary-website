@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercenary - Plataforma de Freelancers Gamificada</title>
+    <meta name="description" content="Mercenary: La primera plataforma de freelancers gamificada en Chile. Conecta con profesionales de élite a través de un sistema de ranking competitivo.">
+    <meta name="keywords" content="freelancer, chile, gamificación, ranking, mercenario, trabajos, profesionales">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mercenary - Plataforma de Freelancers Gamificada">
+    <meta property="og:description" content="La primera plataforma de freelancers gamificada en Chile. Sistema de ranking competitivo para profesionales de élite.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mercenary.cl">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-chess-knight"></i>
+                <span>Mercenary</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#como-funciona" class="nav-link">Cómo Funciona</a>
+                <a href="#tecnologia" class="nav-link">Tecnología</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    La Primera Plataforma de <span class="gradient-text">Freelancers Gamificada</span> en Chile
+                </h1>
+                <p class="hero-description">
+                    Conecta con profesionales de élite a través de nuestro innovador sistema de ranking competitivo. 
+                    Donde el talento se mide, la reputación se construye y los mejores proyectos esperan.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Comenzar Ahora
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Ver Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Funcional</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">MVP</span>
+                        <span class="stat-label">Completado</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2025</span>
+                        <span class="stat-label">Lanzamiento</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="user-avatar"></div>
+                        <div class="user-info">
+                            <h4>Mercenario Elite</h4>
+                            <div class="ranking">
+                                <i class="fas fa-trophy"></i>
+                                <span>Ranking: 2,150 ELO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Desarrollo App Móvil</h3>
+                        <p>Flutter + Backend API</p>
+                        <div class="card-stats">
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                            <span><i class="fas fa-check-circle"></i> 98% Éxito</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="caracteristicas" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Por Qué Mercenary es Diferente?</h2>
+                <p>No somos otra plataforma de freelancers. Somos una comunidad de élite con gamificación avanzada.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Sistema de Ranking ELO</h3>
+                    <p>Algoritmo competitivo que mide objetivamente tu habilidad y fiabilidad. Sube de nivel completando proyectos exitosos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Pagos Seguros con Escrow</h3>
+                    <p>Sistema de depósito en garantía que protege tanto a oferentes como mercenarios. Los fondos se liberan al completar el trabajo.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Comunidad de Élite</h3>
+                    <p>Solo profesionales verificados y de alto rendimiento. Calidad garantizada en cada proyecto.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Móvil Nativa</h3>
+                    <p>Desarrollada en Flutter para Android e iOS. Experiencia optimizada para trabajar desde cualquier lugar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics Avanzados</h3>
+                    <p>Métricas detalladas de rendimiento, historial de proyectos y análisis de tu evolución profesional.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Matching Inteligente</h3>
+                    <p>IA que conecta automáticamente los mejores mercenarios con los proyectos más adecuados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cómo Funciona Mercenary</h2>
+                <p>Un proceso simple y transparente para conectar talento con oportunidades</p>
+            </div>
+            
+            <div class="user-types">
+                <div class="user-type">
+                    <h3><i class="fas fa-briefcase"></i> Para Oferentes</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Registra tu Proyecto</h4>
+                                <p>Describe tu necesidad, define el presupuesto y selecciona la categoría apropiada.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Recibe Propuestas</h4>
+                                <p>Los mercenarios más calificados postulan con sus propuestas y ranking visible.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Selecciona y Deposita</h4>
+                                <p>Elige al mejor candidato y deposita el pago en nuestro sistema de garantía.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Recibe tu Proyecto</h4>
+                                <p>El mercenario completa el trabajo y tú calificas la experiencia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="user-type">
+                    <h3><i class="fas fa-chess-knight"></i> Para Mercenarios</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Crea tu Perfil</h4>
+                                <p>Muestra tus habilidades, experiencia y construye tu reputación desde cero.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Explora Proyectos</h4>
+                                <p>Navega por el tablón de anuncios y encuentra proyectos que se ajusten a tu perfil.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Postula y Compite</h4>
+                                <p>Envía propuestas competitivas y destaca con tu ranking ELO.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Ejecuta y Sube de Nivel</h4>
+                                <p>Completa proyectos exitosos para mejorar tu ranking y acceder a mejores oportunidades.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="tecnologia" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tecnología de Vanguardia</h2>
+                <p>Construido con las mejores herramientas para garantizar rendimiento, seguridad y escalabilidad</p>
+            </div>
+            
+            <div class="tech-stack">
+                <div class="tech-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Frontend Móvil</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+                            <span>Flutter 3.32.8</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart">
+                            <span>Dart</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3><i class="fas fa-server"></i> Backend API</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI">
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            <span>Python 3.13</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3><i class="fas fa-database"></i> Base de Datos</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" alt="SQLAlchemy">
+                            <span>SQLAlchemy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3><i class="fas fa-cloud"></i> DevOps</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Actions">
+                            <span>GitHub Actions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-highlights">
+                <div class="highlight">
+                    <h4><i class="fas fa-check-circle"></i> 100% Funcional</h4>
+                    <p>Backend completamente operativo en localhost:8000 con todos los endpoints implementados</p>
+                </div>
+                <div class="highlight">
+                    <h4><i class="fas fa-shield-alt"></i> Seguridad Avanzada</h4>
+                    <p>Autenticación JWT, OAuth2, encriptación bcrypt y cumplimiento con Ley 19.628 chilena</p>
+                </div>
+                <div class="highlight">
+                    <h4><i class="fas fa-rocket"></i> Listo para Producción</h4>
+                    <p>CI/CD configurado, tests implementados, documentación completa y APK generado exitosamente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Status Section -->
+    <section class="status">
+        <div class="container">
+            <div class="section-header">
+                <h2>Estado del Proyecto</h2>
+                <p>Desarrollo completado y verificado - Listo para lanzamiento</p>
+            </div>
+            
+            <div class="status-grid">
+                <div class="status-item completed">
+                    <div class="status-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Backend API</h3>
+                    <p>100% Completado</p>
+                    <div class="status-details">
+                        <span>✅ FastAPI funcional</span>
+                        <span>✅ Todos los endpoints</span>
+                        <span>✅ Documentación Swagger</span>
+                    </div>
+                </div>
+                
+                <div class="status-item completed">
+                    <div class="status-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Frontend Móvil</h3>
+                    <p>100% Completado</p>
+                    <div class="status-details">
+                        <span>✅ Flutter 3.32.8</span>
+                        <span>✅ Todas las pantallas</span>
+                        <span>✅ BLoC pattern</span>
+                    </div>
+                </div>
+                
+                <div class="status-item completed">
+                    <div class="status-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Base de Datos</h3>
+                    <p>100% Completado</p>
+                    <div class="status-details">
+                        <span>✅ PostgreSQL</span>
+                        <span>✅ Modelos SQLAlchemy</span>
+                        <span>✅ Migraciones Alembic</span>
+                    </div>
+                </div>
+                
+                <div class="status-item completed">
+                    <div class="status-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Testing & CI/CD</h3>
+                    <p>100% Completado</p>
+                    <div class="status-details">
+                        <span>✅ Tests unitarios</span>
+                        <span>✅ GitHub Actions</span>
+                        <span>✅ Build APK exitoso</span>
+                    </div>
+                </div>
+                
+                <div class="status-item completed">
+                    <div class="status-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Documentación</h3>
+                    <p>100% Completado</p>
+                    <div class="status-details">
+                        <span>✅ Backend docs</span>
+                        <span>✅ Frontend docs</span>
+                        <span>✅ DevOps docs</span>
+                    </div>
+                </div>
+                
+                <div class="status-item ready">
+                    <div class="status-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Lanzamiento</h3>
+                    <p>Listo para Deploy</p>
+                    <div class="status-details">
+                        <span>🚀 MVP Completo</span>
+                        <span>🚀 Sin errores críticos</span>
+                        <span>🚀 Producción ready</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Listo para Revolucionar el Freelancing?</h2>
+                <p>Únete a la comunidad de profesionales de élite más innovadora de Chile</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información del Proyecto</h3>
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Desarrollo completado: Julio 2025</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mercado objetivo: Chile</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-code"></i>
+                        <span>Estado: 100% Funcional</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <span>Dirigido a: Profesionales de élite</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Mantente Informado</h3>
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <div style="display: none;">
+                            <input name="bot-field" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="user-type" required>
+                                <option value="">Soy...</option>
+                                <option value="oferente">Oferente (Busco profesionales)</option>
+                                <option value="mercenario">Mercenario (Busco proyectos)</option>
+                                <option value="inversor">Inversor</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Mensaje (opcional)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-chess-knight"></i>
+                        <span>Mercenary</span>
+                    </div>
+                    <p>La primera plataforma de freelancers gamificada en Chile. Donde el talento se mide y la excelencia se recompensa.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Proyecto</h4>
+                    <ul>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#como-funciona">Cómo Funciona</a></li>
+                        <li><a href="#tecnologia">Tecnología</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tecnología</h4>
+                    <ul>
+                        <li>Flutter & Dart</li>
+                        <li>FastAPI & Python</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker & CI/CD</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Estado</h4>
+                    <ul>
+                        <li>✅ MVP Completado</li>
+                        <li>✅ Backend Funcional</li>
+                        <li>✅ Frontend Implementado</li>
+                        <li>🚀 Listo para Deploy</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mercenary Platform. Proyecto de desarrollo completado.</p>
+                <div class="footer-links">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
