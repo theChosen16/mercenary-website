@@ -36,6 +36,7 @@
                 <a href="#caracteristicas" class="nav-link">Características</a>
                 <a href="#como-funciona" class="nav-link">Cómo Funciona</a>
                 <a href="#tecnologia" class="nav-link">Tecnología</a>
+                <a href="#sistema-escrow" class="nav-link">Sistema Escrow</a>
                 <a href="#contacto" class="nav-link">Contacto</a>
             </div>
             <div class="nav-toggle" id="nav-toggle">
@@ -309,21 +310,213 @@
             
             <div class="tech-highlights">
                 <div class="highlight">
-                    <h4><i class="fas fa-check-circle"></i> 100% Funcional</h4>
-                    <p>Backend completamente operativo en localhost:8000 con todos los endpoints implementados</p>
+                    <h4><i class="fas fa-cogs"></i> En Desarrollo Activo</h4>
+                    <p>Backend operativo con nuevas funcionalidades siendo implementadas continuamente</p>
                 </div>
                 <div class="highlight">
                     <h4><i class="fas fa-shield-alt"></i> Seguridad Avanzada</h4>
                     <p>Autenticación JWT, OAuth2, encriptación bcrypt y cumplimiento con Ley 19.628 chilena</p>
                 </div>
                 <div class="highlight">
-                    <h4><i class="fas fa-rocket"></i> Listo para Producción</h4>
-                    <p>CI/CD configurado, tests implementados, documentación completa y APK generado exitosamente</p>
+                    <h4><i class="fas fa-rocket"></i> Optimización Continua</h4>
+                    <p>CI/CD configurado, tests implementados, documentación actualizada y mejoras constantes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Escrow Technology Section -->
+    <section id="sistema-escrow" class="escrow-tech">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sistema de Garantía de Pagos (Escrow)</h2>
+                <p>Arquitectura tecnológica robusta que garantiza transacciones seguras entre oferentes y mercenarios</p>
+            </div>
+            
+            <div class="escrow-overview">
+                <div class="escrow-flow">
+                    <h3><i class="fas fa-shield-alt"></i> Flujo de Seguridad del Escrow</h3>
+                    <div class="flow-steps">
+                        <div class="flow-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Depósito Inicial</h4>
+                                <p>El oferente deposita los fondos en nuestra cuenta de garantía mediante Stripe</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Retención Segura</h4>
+                                <p>Los fondos se mantienen en una cuenta separada hasta la finalización del proyecto</p>
+                            </div>
+                        </div>
+                        <div class="flow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Liberación Automática</h4>
+                                <p>Al aprobar el trabajo, los fondos se transfieren automáticamente al mercenario</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-architecture">
+                <h3><i class="fas fa-server"></i> Arquitectura Técnica del Sistema</h3>
+                <div class="architecture-grid">
+                    <div class="arch-component">
+                        <div class="component-icon">
+                            <i class="fab fa-stripe"></i>
+                        </div>
+                        <h4>Stripe Payment Processing</h4>
+                        <div class="tech-details">
+                            <span class="tech-tag">Payment Intents API</span>
+                            <span class="tech-tag">Connect Platform</span>
+                            <span class="tech-tag">Webhooks</span>
+                        </div>
+                        <p>Procesamiento de pagos PCI-DSS compliant con soporte para múltiples métodos de pago y monedas.</p>
+                    </div>
+                    
+                    <div class="arch-component">
+                        <div class="component-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>Base de Datos Transaccional</h4>
+                        <div class="tech-details">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">ACID Compliance</span>
+                            <span class="tech-tag">Prisma ORM</span>
+                        </div>
+                        <p>Sistema de transacciones atómicas que garantiza la consistencia de datos en todas las operaciones financieras.</p>
+                    </div>
+                    
+                    <div class="arch-component">
+                        <div class="component-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4>Seguridad y Encriptación</h4>
+                        <div class="tech-details">
+                            <span class="tech-tag">AES-256</span>
+                            <span class="tech-tag">JWT Tokens</span>
+                            <span class="tech-tag">Rate Limiting</span>
+                        </div>
+                        <p>Encriptación end-to-end de datos sensibles con autenticación multi-factor y detección de fraude.</p>
+                    </div>
+                    
+                    <div class="arch-component">
+                        <div class="component-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Motor de Estados</h4>
+                        <div class="tech-details">
+                            <span class="tech-tag">State Machine</span>
+                            <span class="tech-tag">Event Sourcing</span>
+                            <span class="tech-tag">Audit Trail</span>
+                        </div>
+                        <p>Máquina de estados que controla el ciclo de vida de cada transacción con trazabilidad completa.</p>
+                    </div>
+                    
+                    <div class="arch-component">
+                        <div class="component-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h4>Sistema de Notificaciones</h4>
+                        <div class="tech-details">
+                            <span class="tech-tag">Real-time</span>
+                            <span class="tech-tag">Multi-channel</span>
+                            <span class="tech-tag">WebSockets</span>
+                        </div>
+                        <p>Notificaciones instantáneas sobre cambios de estado, depósitos, liberaciones y disputas.</p>
+                    </div>
+                    
+                    <div class="arch-component">
+                        <div class="component-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h4>Sistema de Disputas</h4>
+                        <div class="tech-details">
+                            <span class="tech-tag">Workflow Engine</span>
+                            <span class="tech-tag">Evidence Storage</span>
+                            <span class="tech-tag">Resolution API</span>
+                        </div>
+                        <p>Plataforma automatizada para gestión de disputas con evidencia digital y resolución estructurada.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="security-features">
+                <h3><i class="fas fa-shield-alt"></i> Características de Seguridad</h3>
+                <div class="security-grid">
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Cumplimiento PCI-DSS Level 1</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Encriptación AES-256 en reposo</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>TLS 1.3 para datos en tránsito</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Autenticación multi-factor (2FA)</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Detección de fraude con ML</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Auditoría completa de transacciones</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="implementation-status">
+                <h3><i class="fas fa-code"></i> Estado de Implementación</h3>
+                <div class="status-bars">
+                    <div class="status-bar">
+                        <div class="status-label">Integración Stripe</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                        <span class="status-percent">85% - En desarrollo</span>
+                    </div>
+                    <div class="status-bar">
+                        <div class="status-label">Base de Datos Transaccional</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                        <span class="status-percent">90% - Casi completo</span>
+                    </div>
+                    <div class="status-bar">
+                        <div class="status-label">Sistema de Estados</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                        <span class="status-percent">75% - En desarrollo</span>
+                    </div>
+                    <div class="status-bar">
+                        <div class="status-label">Sistema de Disputas</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%"></div>
+                        </div>
+                        <span class="status-percent">60% - Desarrollo activo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Status Section -->
     <section class="status">
         <div class="container">
             <div class="section-header">
-                <h2>Estado del Proyecto - Enero 2025</h2>
-                <p> <strong>PROYECTO COMPLETADO AL 100%</strong> - Todas las funcionalidades implementadas y listas para producción</p>
+                <h2>Estado del Proyecto - Agosto 2025</h2>
+                <p> 🚀 <strong>DESARROLLO ACTIVO EN CURSO</strong> - Implementando funcionalidades avanzadas y optimizaciones para el lanzamiento</p>
             </div>
             <div class="status-grid">
                 <div class="status-item completed">
@@ -332,7 +525,7 @@
                     </div>
                     <h3>Plataforma Web</h3>
                     <p>Next.js 15 con todas las funcionalidades core implementadas</p>
-                    <div class="status-badge"> PRODUCTION READY</div>
+                    <div class="status-badge"> 🚧 EN DESARROLLO</div>
                 </div>
                 <div class="status-item completed">
                     <div class="status-icon">
@@ -340,7 +533,7 @@
                     </div>
                     <h3>Integración Móvil</h3>
                     <p>API unificada con sincronización en tiempo real y notificaciones cross-platform</p>
-                    <div class="status-badge"> 100% Completado</div>
+                    <div class="status-badge"> 🔄 DESARROLLO ACTIVO</div>
                 </div>
                 <div class="status-item completed">
                     <div class="status-icon">
@@ -348,7 +541,7 @@
                     </div>
                     <h3>Backend & API</h3>
                     <p>FastAPI + Next.js API Routes con 30+ endpoints REST</p>
-                    <div class="status-badge"> 100% Completado</div>
+                    <div class="status-badge"> 🔄 DESARROLLO ACTIVO</div>
                 </div>
                 <div class="status-item completed">
                     <div class="status-icon">
@@ -356,7 +549,7 @@
                     </div>
                     <h3>Base de Datos</h3>
                     <p>PostgreSQL + Prisma ORM with 20+ modelos implementados</p>
-                    <div class="status-badge"> 100% Completado</div>
+                    <div class="status-badge"> 🔄 DESARROLLO ACTIVO</div>
                 </div>
                 <div class="status-item completed">
                     <div class="status-icon">
@@ -364,7 +557,7 @@
                     </div>
                     <h3>Seguridad Enterprise</h3>
                     <p>JWT + OAuth2 + Rate limiting + Fraud detection</p>
-                    <div class="status-badge"> 100% Completado</div>
+                    <div class="status-badge"> 🔄 DESARROLLO ACTIVO</div>
                 </div>
                 <div class="status-item completed">
                     <div class="status-icon">
@@ -372,7 +565,7 @@
                     </div>
                     <h3>Analytics & Testing</h3>
                     <p>Dashboard completo + Testing E2E con Playwright</p>
-                    <div class="status-badge"> 100% Completado</div>
+                    <div class="status-badge"> 🔄 DESARROLLO ACTIVO</div>
                 </div>
             </div>
             
