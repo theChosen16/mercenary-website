@@ -481,28 +481,28 @@
                     <div class="status-bar">
                         <div class="status-label">Integración Stripe</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 85%"></div>
+                            <div class="progress-fill progress-fill-85"></div>
                         </div>
                         <span class="status-percent">85% - En desarrollo</span>
                     </div>
                     <div class="status-bar">
                         <div class="status-label">Base de Datos Transaccional</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 90%"></div>
+                            <div class="progress-fill progress-fill-90"></div>
                         </div>
                         <span class="status-percent">90% - Casi completo</span>
                     </div>
                     <div class="status-bar">
                         <div class="status-label">Sistema de Estados</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 75%"></div>
+                            <div class="progress-fill progress-fill-75"></div>
                         </div>
                         <span class="status-percent">75% - En desarrollo</span>
                     </div>
                     <div class="status-bar">
                         <div class="status-label">Sistema de Disputas</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 60%"></div>
+                            <div class="progress-fill progress-fill-60"></div>
                         </div>
                         <span class="status-percent">60% - Desarrollo activo</span>
                     </div>
@@ -572,17 +572,17 @@
             <div class="deployment-status">
                 <h3> Plataformas en Producción</h3>
                 <div class="deployment-links">
-                    <a href="https://mercenary-dev.vercel.app" class="deployment-link" target="_blank">
+                    <a href="https://mercenary-dev.vercel.app" class="deployment-link" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-globe"></i>
                         <span>Plataforma Web (Vercel)</span>
                         <div class="status-indicator active"></div>
                     </a>
-                    <a href="https://github.com/theChosen16/Mercenary_Dev" class="deployment-link" target="_blank">
+                    <a href="https://github.com/theChosen16/Mercenary_Dev" class="deployment-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                         <span>Código Fuente (GitHub)</span>
                         <div class="status-indicator active"></div>
                     </a>
-                    <a href="https://mercenary-dev.vercel.app/api/v1/swagger" class="deployment-link" target="_blank">
+                    <a href="https://mercenary-dev.vercel.app/api/v1/swagger" class="deployment-link" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-code"></i>
                         <span>API Documentation</span>
                         <div class="status-indicator active"></div>
@@ -647,7 +647,7 @@
                     <h3>Mantente Informado</h3>
                     <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
-                        <div style="display: none;">
+                        <div class="hidden">
                             <input name="bot-field" />
                         </div>
                         <div class="form-group">
@@ -657,7 +657,7 @@
                             <input type="email" name="email" placeholder="Tu email" required>
                         </div>
                         <div class="form-group">
-                            <select name="user-type" required>
+                            <select name="user-type" title="Selecciona tu tipo de usuario" required>
                                 <option value="">Soy...</option>
                                 <option value="oferente">Oferente (Busco profesionales)</option>
                                 <option value="mercenario">Mercenario (Busco proyectos)</option>

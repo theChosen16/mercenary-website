@@ -781,6 +781,28 @@ body {
     color: var(--primary-color);
 }
 
+/* Progress Bar Styles */
+.progress-fill-85 {
+    width: 85%;
+}
+
+.progress-fill-90 {
+    width: 90%;
+}
+
+.progress-fill-75 {
+    width: 75%;
+}
+
+.progress-fill-60 {
+    width: 60%;
+}
+
+/* Hidden form field for bot protection */
+.hidden {
+    display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
