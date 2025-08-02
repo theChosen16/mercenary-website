@@ -799,9 +799,62 @@ body {
     width: 60%;
 }
 
+.progress-bar-width-95 {
+    width: 95%;
+}
+
+.progress-bar-width-88 {
+    width: 88%;
+}
+
+.progress-bar-width-92 {
+    width: 92%;
+}
+
+.progress-bar-width-85 {
+    width: 85%;
+}
+
+.progress-bar-width-90 {
+    width: 90%;
+}
+
 /* Hidden form field for bot protection */
 .hidden {
     display: none;
+}
+
+.hidden-element {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Step details styling */
+.step-details {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.detail-tag {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.detail-tag:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Design */
